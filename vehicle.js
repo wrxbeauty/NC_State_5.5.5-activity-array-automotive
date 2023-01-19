@@ -11,7 +11,7 @@ class Vehicle {
         this.numberOfWheels = 0;
     }
 
-    start() {
+    started() {
         if (this.fuel > 0) {
             return this.started = true;
             console.log("engine started...!!!");
