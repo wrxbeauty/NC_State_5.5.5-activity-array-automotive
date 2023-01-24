@@ -37,3 +37,8 @@ class Car extends VehicleModule {
         }
     }
 }
+
+let newCar = ["Subaru", "WRX", "2013", "Black","85000"]
+console.log(newCar.make)
+
+newCar.checkService()
